@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282a35;
+}
+
+.title
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    width: 750px;
+    height: 750px;
+}
+
+.gridItem{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+
+.buttonHolder{
+    display: flex;
+    justify-content: space-between;
+    width: 760px;
+    padding-top: 10px;
+}
+
+button{
+    width: 360px;
+    height: 60px;
+    border: 5px solid black;
+    background-color: antiquewhite;
+    font-weight: bold;
+    font-size: large;
+}
+
+button:hover
+{
+    background-color: #e0d1bc;
+}
+
+button:active
+{
+    background-color: #ccbca5;
+}
